@@ -1,0 +1,39 @@
+{
+  "cwd": "/Users/kevinalexander-oval/Desktop/Projects/framework7-vue-cordova-boilerplate",
+  "type": [
+    "cordova"
+  ],
+  "name": "Framework7 Vue Cordova",
+  "framework": "vue",
+  "template": "blank",
+  "bundler": "webpack",
+  "cssPreProcessor": "scss",
+  "theming": {
+    "customColor": false,
+    "color": "#007aff",
+    "darkTheme": false,
+    "iconFonts": true,
+    "fillBars": false
+  },
+  "customBuild": false,
+  "webpack": {
+    "developmentSourceMap": true,
+    "productionSourceMap": true,
+    "hashAssets": false,
+    "preserveAssetsPaths": false,
+    "inlineAssets": true
+  },
+  "pkg": "com.github.kevinasurjadi.framework7vuecordova",
+  "cordova": {
+    "folder": "cordova",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "plugins": [
+      "cordova-plugin-statusbar",
+      "cordova-plugin-keyboard",
+      "cordova-plugin-splashscreen"
+    ]
+  }
+}
